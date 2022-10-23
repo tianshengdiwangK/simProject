@@ -168,3 +168,173 @@
 2022-10-12T16:07:16.630+0800	INFO	log/middleware.go:22	/{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 / <nil>} {query 15 0  <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}
 2022-10-12T16:07:16.939+0800	INFO	log/middleware.go:22	/{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 / <nil>} {query 15 0  <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}
 2022-10-12T16:07:17.014+0800	INFO	log/middleware.go:22	/{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 / <nil>} {query 15 0  <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}
+2022-10-13T21:04:31.099+0800	WARN	simProject/main.go:9	this is a test!
+2022-10-13T21:04:39.004+0800	WARN	simProject/main.go:9	this is a test!
+2022-10-13T22:47:09.403+0800	INFO	handler/handler.go:339	图片路径：upload/images/f91708e6644098ea351341e028326928.jpg
+2022-10-13T22:49:10.480+0800	INFO	handler/handler.go:339	图片路径：upload/images/f91708e6644098ea351341e028326928.jpg
+2022-10-13T22:49:10.509+0800	INFO	log/middleware.go:22	/api/v1/download/image/origin/f91708e6644098ea351341e028326928.jpg{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /api/v1/download/image/origin/f91708e6644098ea351341e028326928.jpg <nil>} {query 15 0  <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 29134800  <nil>}
+2022-10-13T22:49:13.038+0800	INFO	log/middleware.go:22	/api/v1/upload/example{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /api/v1/upload/example <nil>} {query 15 0  <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}
+2022-10-17T11:34:57.805+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T11:35:42.784+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T11:36:26.582+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T12:12:23.112+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T12:15:56.340+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T12:19:29.480+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T12:19:52.920+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T12:20:21.632+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T12:23:32.620+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T12:29:48.647+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-17T12:29:48.647+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 1642400  <nil>}
+2022-10-17T12:42:39.452+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T12:50:20.666+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T12:50:35.304+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-17T12:50:35.304+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 512900  <nil>}
+2022-10-17T12:50:42.119+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T12:54:51.217+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T12:56:20.200+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T12:56:21.947+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-17T12:56:21.947+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 620600  <nil>}
+2022-10-17T13:01:04.853+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T13:01:06.272+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-17T13:01:06.272+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 521000  <nil>}
+2022-10-17T13:01:25.626+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T14:40:54.808+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T14:43:06.336+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T14:43:08.851+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-17T14:43:08.851+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 733300  <nil>}
+2022-10-17T14:43:47.021+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T14:43:48.876+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-17T14:43:48.876+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 1310200  <nil>}
+2022-10-17T15:00:27.112+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T15:00:28.577+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-17T15:00:28.578+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 703800  <nil>}
+2022-10-17T15:01:05.808+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T15:01:07.808+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-17T15:01:07.808+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}
+2022-10-17T15:01:08.657+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-17T15:01:08.657+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 942100  <nil>}
+2022-10-17T15:01:09.163+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-17T15:01:09.163+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 419100  <nil>}
+2022-10-17T15:01:10.214+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-17T15:01:10.214+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 187700  <nil>}
+2022-10-17T16:59:50.264+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T17:00:18.063+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T17:25:11.606+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T17:25:11.615+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-17T17:25:11.615+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-17T17:25:11.615+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-17T17:25:11.615+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping.
+2022-10-17T17:25:11.615+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping..
+2022-10-17T17:25:11.615+0800	INFO	redis/redis.go:53	初始化Redis，检测连接Ping... %sPONG
+2022-10-17T17:26:08.463+0800	INFO	middleware/logMiddleware.go:22	/user/saveUser{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/saveUser <nil>} {query 15 0 userId=11 <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 284500  <nil>}
+2022-10-17T17:29:32.375+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T17:29:35.333+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-17T17:29:35.333+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-17T17:29:35.333+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-17T17:29:35.334+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping.
+2022-10-17T17:29:35.334+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping..
+2022-10-17T17:29:35.334+0800	INFO	redis/redis.go:53	初始化Redis，检测连接Ping... %sPONG
+2022-10-17T17:29:53.335+0800	INFO	middleware/logMiddleware.go:22	/user/saveUser{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/saveUser <nil>} {query 15 0 userId=11 <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 15514429600  <nil>}
+2022-10-17T17:42:03.777+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T17:42:03.788+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-17T17:42:03.788+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-17T17:42:03.788+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-17T17:42:03.789+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping.
+2022-10-17T17:42:03.789+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping..
+2022-10-17T17:42:03.789+0800	INFO	redis/redis.go:53	初始化Redis，检测连接Ping... %sPONG
+2022-10-17T17:42:13.058+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-17T17:42:13.069+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-17T17:42:13.069+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-17T17:42:13.069+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-17T17:42:13.069+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping.
+2022-10-17T17:42:13.069+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping..
+2022-10-17T17:42:13.069+0800	INFO	redis/redis.go:53	初始化Redis，检测连接Ping... %sPONG
+2022-10-18T14:26:33.625+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-18T14:26:33.648+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-18T14:26:33.648+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-18T14:26:33.648+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-18T14:26:35.676+0800	FATAL	redis/redis.go:48	dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it.
+2022-10-18T14:28:51.907+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-18T14:28:51.918+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-18T14:28:51.918+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-18T14:28:51.918+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-18T14:28:51.918+0800	INFO	redis/redis.go:50	初始化Redis，检测连接Ping.
+2022-10-18T14:28:51.918+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping..
+2022-10-18T14:28:51.918+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping... PONG
+2022-10-18T14:31:05.443+0800	INFO	middleware/logMiddleware.go:22	/user/saveUser{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/saveUser <nil>} {query 15 0 userId=11 <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}
+2022-10-18T14:34:25.646+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-18T14:34:25.655+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-18T14:34:25.655+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-18T14:34:25.655+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-18T14:34:25.655+0800	INFO	redis/redis.go:50	初始化Redis，检测连接Ping.
+2022-10-18T14:34:25.655+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping..
+2022-10-18T14:34:25.655+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping... PONG
+2022-10-18T14:34:28.829+0800	INFO	middleware/logMiddleware.go:22	/user/saveUser{status 11 200  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/saveUser <nil>} {query 15 0 userId=11 <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 502000  <nil>}
+2022-10-18T14:34:55.822+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-18T14:34:55.832+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-18T14:34:55.832+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-18T14:34:55.832+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-18T14:34:55.832+0800	INFO	redis/redis.go:50	初始化Redis，检测连接Ping.
+2022-10-18T14:34:55.832+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping..
+2022-10-18T14:34:55.832+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping... PONG
+2022-10-18T14:39:55.525+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-18T14:39:55.534+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-18T14:39:55.534+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-18T14:39:55.534+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-18T14:39:55.535+0800	INFO	redis/redis.go:50	初始化Redis，检测连接Ping.
+2022-10-18T14:39:55.535+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping..
+2022-10-18T14:39:55.535+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping... PONG
+2022-10-18T14:39:57.108+0800	ERROR	usercontroller/user.go:45	保存到redis失败
+2022-10-18T14:39:57.108+0800	INFO	middleware/logMiddleware.go:22	/user/saveUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/saveUser <nil>} {query 15 0 userId=11 <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}
+2022-10-18T14:40:11.625+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-18T14:40:11.634+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-18T14:40:11.634+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-18T14:40:11.634+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-18T14:40:11.635+0800	INFO	redis/redis.go:50	初始化Redis，检测连接Ping.
+2022-10-18T14:40:11.635+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping..
+2022-10-18T14:40:11.635+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping... PONG
+2022-10-18T14:42:37.898+0800	ERROR	usercontroller/user.go:45	保存到redis失败
+2022-10-18T14:42:37.898+0800	INFO	middleware/logMiddleware.go:22	/user/saveUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/saveUser <nil>} {query 15 0 userId=11 <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}
+2022-10-18T14:42:48.981+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-18T14:42:48.994+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-18T14:42:48.994+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-18T14:42:48.994+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-18T14:42:48.994+0800	INFO	redis/redis.go:50	初始化Redis，检测连接Ping.
+2022-10-18T14:42:48.995+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping..
+2022-10-18T14:42:48.995+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping... PONG
+2022-10-18T14:58:57.368+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-18T14:58:57.377+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-18T14:58:57.377+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-18T14:58:57.377+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-18T14:58:57.377+0800	INFO	redis/redis.go:50	初始化Redis，检测连接Ping.
+2022-10-18T14:58:57.377+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping..
+2022-10-18T14:58:57.377+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping... PONG
+2022-10-18T14:58:59.554+0800	ERROR	usercontroller/user.go:45	保存到redis失败
+2022-10-18T14:58:59.554+0800	INFO	middleware/logMiddleware.go:22	/user/saveUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/saveUser <nil>} {query 15 0 userId=11 <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}
+2022-10-18T15:07:00.242+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-18T15:07:00.242+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 1929500  <nil>}
+2022-10-18T15:28:45.478+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-18T15:28:45.487+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-18T15:28:45.487+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-18T15:28:45.487+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-18T15:28:45.487+0800	INFO	redis/redis.go:50	初始化Redis，检测连接Ping.
+2022-10-18T15:28:45.487+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping..
+2022-10-18T15:28:45.487+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping... PONG
+2022-10-18T15:28:48.772+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-18T15:28:48.772+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 511900  <nil>}
+2022-10-18T15:29:05.955+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-18T15:29:05.966+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-18T15:29:05.966+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-18T15:29:05.966+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-18T15:29:05.967+0800	INFO	redis/redis.go:50	初始化Redis，检测连接Ping.
+2022-10-18T15:29:05.967+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping..
+2022-10-18T15:29:05.967+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping... PONG
+2022-10-18T15:36:31.384+0800	INFO	config/viper.go:24	Read config successfully: F:\gopath\src\github.com\tianshengdiwangK\simProject\config.yml
+2022-10-18T15:36:31.394+0800	INFO	redis/redis.go:33	初始化Redis...
+2022-10-18T15:36:31.394+0800	INFO	redis/redis.go:40	初始化Redis，普通模式...
+2022-10-18T15:36:31.394+0800	INFO	redis/redis.go:44	初始化Redis，检测连接...
+2022-10-18T15:36:31.395+0800	INFO	redis/redis.go:50	初始化Redis，检测连接Ping.
+2022-10-18T15:36:31.395+0800	INFO	redis/redis.go:51	初始化Redis，检测连接Ping..
+2022-10-18T15:36:31.395+0800	INFO	redis/redis.go:52	初始化Redis，检测连接Ping... PONG
+2022-10-18T15:36:33.218+0800	ERROR	usercontroller/user.go:27	根据username查询数据库失败
+2022-10-18T15:36:33.218+0800	INFO	middleware/logMiddleware.go:22	/user/getUser{status 11 500  <nil>} {method 15 0 GET <nil>} {path 15 0 /user/getUser <nil>} {query 15 0 username=xhk <nil>} {ip 15 0 127.0.0.1 <nil>} {user-agent 15 0 PostmanRuntime/7.29.2 <nil>} {errors 15 0  <nil>} {cost 8 0  <nil>}

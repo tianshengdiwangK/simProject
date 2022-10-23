@@ -1,0 +1,18 @@
+database:
+    driver: mysql
+    username: root
+    password: root
+    dbname: simdb
+    hose: 127.0.0.1
+    port: 3306
+    timeout: 100s
+redis:
+    enabled: true
+    conn: 127.0.0.1:6379
+    dbNum: 8
+    password:
+    timeout: 3000
+    sentinel:
+        enabled: false
+        master: simMaster
+        nodes: 127.0.0.1:16379,127.0.0.1:26379,127.0.0.1:36379

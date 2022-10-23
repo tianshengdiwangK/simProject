@@ -1,4 +1,4 @@
-package setup
+package log
 
 import (
 	"github.com/natefinch/lumberjack"
@@ -9,7 +9,7 @@ import (
 var logger *zap.SugaredLogger
 
 /*
-   setJSONEncoder 设置logger编码
+setJSONEncoder 设置logger编码
 */
 func setJSONEncoder() zapcore.Encoder {
 	encoderConfig := zap.NewProductionEncoderConfig()
@@ -19,7 +19,7 @@ func setJSONEncoder() zapcore.Encoder {
 }
 
 /*
-   setLoggerWrite 设置logger写入文件
+setLoggerWrite 设置logger写入文件
 */
 func setLoggerWrite() zapcore.WriteSyncer {
 	l := &lumberjack.Logger{
@@ -34,9 +34,9 @@ func setLoggerWrite() zapcore.WriteSyncer {
 }
 
 /*
-   InitLogger 初始化 logger
+InitLogger 初始化 logger
 */
-func InitLogger() {
+func init() {
 	core := zapcore.NewCore(setJSONEncoder(), setLoggerWrite(), zap.InfoLevel)
 	logger = zap.New(core, zap.AddCaller()).Sugar()
 }
